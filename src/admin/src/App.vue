@@ -130,7 +130,7 @@ hr {
 </style>
 <script>
 // import { refreshToken } from "../../../api/UserAuthorize";
-// import { GetAdminPermissionAdminMenu } from "../../../api/Privilege/Permission";
+// import { GetAdminPermissionAdminMenu } from "./api/Privilege/Permission";
 // import { GetCurrentAdmin } from "../../../api/Privilege/Admin";
 import util from "./common/util";
 import config from "./common/config";
@@ -255,7 +255,7 @@ export default {
   mounted: function() {
     let that = this;
 
-    this.getAdminPermission();
+    // this.getAdminPermission();
     this.initUser();
   }
 };
